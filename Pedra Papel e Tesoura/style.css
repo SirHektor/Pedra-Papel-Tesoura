@@ -1,0 +1,89 @@
+@font-face {
+    font-family: gameboy;
+    src: url(Early\ GameBoy.ttf);
+}
+@font-face {
+    font-family: birch;
+    src: url(BirchLeaf.ttf);
+}
+
+
+
+
+
+
+ul#jogadorEscolha li a:hover ,
+ul#jogadorEscolha li a.selecionado,
+ul#computadorEscolha li a.selecionado {
+    opacity: 1;
+    transition: ease-in-out 0.3s;
+}
+
+ul#jogadorEscolha li a,
+ul#computadorEscolha li a {
+    opacity: 0.2;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+#placar {
+    display: flex;
+    justify-content: center;
+    
+}
+#titulo {
+    display: flex;
+    justify-content: center;
+}
+#mensagem {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#jogador {
+    margin-right: 50px;
+    background-color: #FAE673;
+    border: 1px solid;
+    border-radius: 3%;
+}
+#computador {
+    margin-left: 50px;
+    background-color: #FAE673;
+    border: 1px solid;
+    border-radius: 3%;
+}
+#jogadorNome {
+    display: flex;
+    justify-content: center;
+}
+#computadorNome {
+    display: flex;
+    justify-content: center;
+}
+#jogadorEscolha, #computadorEscolha{
+    display: flex;
+}
+h1 {
+    font-family: gameboy, sans-serif;
+    font-size: 30px;
+}
+li{
+    list-style-type: none;
+}
+h2 {
+    font-family: birch, sans-serif;
+    color: #A30800;
+}
+#mensagem {
+    font-family: birch, sans-serif;
+    color: #D9740B;
+}
+#jogadorPontos {
+    display: flex;
+    text-align: center;
+}
+#versus{
+    font-family: gameboy, sans-serif;
+    color: red;
+}
